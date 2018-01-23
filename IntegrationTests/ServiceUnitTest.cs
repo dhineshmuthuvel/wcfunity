@@ -8,7 +8,7 @@ namespace IntegrationTests
     public class ServiceUnitTest
     {
         [TestMethod]
-        public void Test_GetData_Success()
+        public void GetData_Sucess()
         {
             int value = 3;
             ServiceClient client = new ServiceClient();
