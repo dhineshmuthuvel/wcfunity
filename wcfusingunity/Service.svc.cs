@@ -6,10 +6,12 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 using wcfusingunity.Dependencies;
+using wcfusingunity.IncomingMessageInspector;
 
 namespace wcfusingunity
 {
     
+    [ConsoleIncomingMessageOutputBehavior]
     public class Service : IService
     {
         private readonly IDependency _dependency;

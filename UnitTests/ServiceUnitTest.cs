@@ -10,7 +10,7 @@ namespace UnitTests
     public class ServiceUnitTest
     {
         [TestMethod]
-        public void Test_GetData_Sucess()
+        public void GetData_Success()
         {
             int value = 3;
             var mockDependency = new Mock<IDependency>();
