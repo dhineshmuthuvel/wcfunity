@@ -11,7 +11,7 @@ using wcfusingunity.IncomingMessageInspector;
 namespace wcfusingunity
 {
     
-    [ConsoleIncomingMessageOutputBehavior]
+    [ConsoleIncomingMessageServiceBehavior]
     public class Service : IService
     {
         private readonly IDependency _dependency;
